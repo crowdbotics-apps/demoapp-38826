@@ -3,9 +3,11 @@ import { WebView } from "react-native-webview";
 import { OptionsContext } from "@options";
 
 const TermsAndConditionsWebview = ({
+  route,
   navigation,
   url
 }) => {
+  const {} = route.params || {};
   const [uri, setUri] = useState("");
   const options = useContext(OptionsContext);
 
