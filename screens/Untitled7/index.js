@@ -1,5 +1,3 @@
-import { Pressable } from "react-native";
-import { Text } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -15,7 +13,7 @@ const Untitled7 = ({
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Pressable><Text style={styles.UFHfuogF}>Lorem ipsum…bbbcxbxcbxhrn</Text></Pressable></ScrollView>
+    }}></ScrollView>
     </SafeAreaView>;
 };
 
