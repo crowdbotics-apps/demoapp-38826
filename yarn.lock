@@ -1025,7 +1025,7 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@modules/privacy-policy-webview@file:./modules/privacy-policy-webview/":
+"@modules/privacy-policy-webview@file:./modules/privacy-policy-webview":
   version "1.0.0"
 
 "@modules/social-login@file:./modules/social-login":
@@ -1039,6 +1039,9 @@
     react-native-get-random-values "^1.6.0"
     react-native-keyboard-aware-scroll-view "^0.9.3"
     uuid "^8.3.2"
+
+"@modules/terms-and-conditions-webview@file:./modules/terms-and-conditions-webview/":
+  version "1.0.0"
 
 "@react-native-community/cli-debugger-ui@^5.0.1":
   version "5.0.1"
