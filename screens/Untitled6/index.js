@@ -1,3 +1,4 @@
+import { Text } from "react-native";
 import { CheckBox } from "react-native-elements";
 import { RadioGroup } from "react-native-radio-buttons-group";
 import { Slider } from "react-native-elements";
@@ -29,7 +30,7 @@ const Untitled6 = () => {
         id: "2",
         label: "Option 2",
         value: "option2"
-      }]} layout="column"></RadioGroup><CheckBox style={styles.WsdehQtS} title="Checkbox Title"></CheckBox></ScrollView>
+      }]} layout="column"></RadioGroup><CheckBox style={styles.WsdehQtS} title="Checkbox Title"></CheckBox><Text style={styles.mILWWnPL}>Lorem ipsum…</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -101,6 +102,13 @@ const styles = StyleSheet.create({
   WsdehQtS: {
     width: 183,
     height: 69
+  },
+  mILWWnPL: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
   }
 });
 export default Untitled6;
