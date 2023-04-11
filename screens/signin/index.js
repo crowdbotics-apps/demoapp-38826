@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     position: "absolute",
     left: 0,
-    top: NaN
+    top: 0
   }
 });
 export default SignIn;
