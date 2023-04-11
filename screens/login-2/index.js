@@ -1,16 +1,16 @@
-import React from "react";
-import { useNavigation } from "@react-navigation/native";
-import { Text, View, TouchableOpacity, Image, StyleSheet, TextInput, TouchableHighlight } from "react-native";
+import React, { useState } from "react";
+import { Text, View, TouchableOpacity, Image, TouchableHighlight, TextInput, StyleSheet } from "react-native";
 
-const pressed = () => {
-  console.log("pressed");
-};
+const Login2 = () => {
+  const [selected, setSelected] = useState(false);
 
-const Signup = () => {
-  const navigation = useNavigation();
+  const onPress = () => {
+    setSelected(!selected);
+  };
+
   return <View style={styles.container}>
       <View style={styles.heading}>
-        <Text style={styles.headingText}>Sign up</Text>
+        <Text style={styles.headingText}>Log in</Text>
       </View>
       <View>
         <View style={styles.emailContainer}>
@@ -19,15 +19,18 @@ const Signup = () => {
         </View>
         <View style={styles.mb20}>
           <Text style={styles.mr10}>Password</Text>
-          <Input placeholder="Enter" />
+          <Input placeholder="Password" />
         </View>
-        <View style={styles.mb20}>
-          <Text style={styles.mr10}>Confirm password</Text>
-          <Input placeholder="Enter" />
+        <View style={styles.forgotPassword}>
+          <View>
+            <CheckBox onPress={onPress} selected={selected} text="Remember me" />
+          </View>
+          <TouchableOpacity>
+            <Text>Forgot Password?</Text>
+          </TouchableOpacity>
         </View>
-
         <View style={styles.loginContainer}>
-          <Button onPress={pressed}>Sign up</Button>
+          <Button>Log In</Button>
         </View>
         <View style={styles.orContainer}>
           <View style={styles.line} />
@@ -47,9 +50,9 @@ const Signup = () => {
         </View>
       </View>
       <View style={styles.footerContainer}>
-        <Text style={styles.footerText}>I have an account? </Text>
-        <TouchableOpacity onPress={() => navigation.navigate("SignIn")}>
-          <Text>Login</Text>
+        <Text style={styles.footerText}>Do not have an account?</Text>
+        <TouchableOpacity>
+          <Text>Sign Up</Text>
         </TouchableOpacity>
       </View>
     </View>;
@@ -139,24 +142,22 @@ const styles = StyleSheet.create({
     color: "#6B6B6B"
   }
 });
-export default Signup;
+export default Login2;
 
 const Button = props => {
   return <TouchableHighlight onPress={props.onPress} underlayColor="#DDDDDD">
-      
-        <View style={[btnStyles.button, {
+      <View style={[btnStyles.button, {
       backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
       height: props.height ? props.height : 49,
       borderWidth: props.borderWidth ? props.borderWidth : 0,
       borderColor: props.borderColor ? props.borderColor : "#000000"
     }]}>
-          <Text style={[btnStyles.text, {
+        <Text style={[btnStyles.text, {
         color: props.color ? props.color : "#ffffff"
       }]}>
-            {props.children}
-          </Text>
-        </View>
-      
+          {props.children}
+        </Text>
+      </View>
     </TouchableHighlight>;
 };
 
@@ -170,6 +171,43 @@ const btnStyles = StyleSheet.create({
   text: {
     fontWeight: "bold",
     fontSize: 15
+  }
+});
+
+const CheckBox = ({
+  selected,
+  onPress,
+  text
+}) => <TouchableOpacity onPress={onPress}>
+    <View style={checkBoxStyles.checkBoxContainer}>
+      <View style={checkBoxStyles.iconContainer}>
+        {selected && <Image source={require("./assets/checkbox.png")} style={checkBoxStyles.icon} />}
+      </View>
+      <Text style={checkBoxStyles.iconText}>{text}</Text>
+    </View>
+  </TouchableOpacity>;
+
+const checkBoxStyles = StyleSheet.create({
+  checkBoxContainer: {
+    display: "flex",
+    flexDirection: "row"
+  },
+  iconContainer: {
+    height: 18,
+    width: 18,
+    borderColor: "#000000",
+    borderWidth: 2,
+    borderRadius: 5,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center"
+  },
+  icon: {
+    height: 16,
+    width: 16
+  },
+  iconText: {
+    marginLeft: 10
   }
 });
 
