@@ -1,3 +1,4 @@
+import { Pressable } from "react-native";
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { Text, View, TouchableOpacity, Image, StyleSheet, TextInput, TouchableHighlight } from "react-native";
@@ -49,7 +50,9 @@ const Signup = () => {
       <View style={styles.footerContainer}>
         <Text style={styles.footerText}>I have an account? </Text>
         <TouchableOpacity onPress={() => navigation.navigate("SignIn")}>
-          <Text>Login</Text>
+          <Pressable onPress={() => {
+          navigation.navigate("login2");
+        }}><Text>Login</Text></Pressable>
         </TouchableOpacity>
       </View>
     </View>;
@@ -142,20 +145,23 @@ const styles = StyleSheet.create({
 export default Signup;
 
 const Button = props => {
+  const navigation = useNavigation();
   return <TouchableHighlight onPress={props.onPress} underlayColor="#DDDDDD">
       
-        <View style={[btnStyles.button, {
-      backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
-      height: props.height ? props.height : 49,
-      borderWidth: props.borderWidth ? props.borderWidth : 0,
-      borderColor: props.borderColor ? props.borderColor : "#000000"
-    }]}>
-          <Text style={[btnStyles.text, {
-        color: props.color ? props.color : "#ffffff"
+        <Pressable onPress={() => {
+      navigation.navigate("termsAndConditions");
+    }}><View style={[btnStyles.button, {
+        backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
+        height: props.height ? props.height : 49,
+        borderWidth: props.borderWidth ? props.borderWidth : 0,
+        borderColor: props.borderColor ? props.borderColor : "#000000"
       }]}>
+          <Text style={[btnStyles.text, {
+          color: props.color ? props.color : "#ffffff"
+        }]}>
             {props.children}
           </Text>
-        </View>
+        </View></Pressable>
       
     </TouchableHighlight>;
 };

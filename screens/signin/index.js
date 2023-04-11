@@ -1,3 +1,5 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import React from "react";
 import { View, Text, TouchableHighlight, StyleSheet } from "react-native";
 
@@ -24,9 +26,9 @@ const SignIn = () => {
               Sign Up
             </Button>
           </View>
-          <Button onPress={pressed} height={50} borderWidth={1} backgroundColor="#FFF" color="#000">
+          <Button1 onPress={pressed} height={50} borderWidth={1} backgroundColor="#FFF" color="#000">
             Log In
-          </Button>
+          </Button1>
         </View>
       </View>
     </View>;
@@ -81,19 +83,46 @@ const styles = StyleSheet.create({
 export default SignIn;
 
 const Button = props => {
+  const navigation = useNavigation();
   return <TouchableHighlight onPress={props.onPress} underlayColor="#DDDDDD">
-      <View style={[btnStyles.button, {
-      backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
-      height: props.height ? props.height : 49,
-      borderWidth: props.borderWidth ? props.borderWidth : 0,
-      borderColor: props.borderColor ? props.borderColor : "#000000"
-    }]}>
-        <Text style={[btnStyles.text, {
-        color: props.color ? props.color : "#ffffff"
+      <Pressable onPress={() => {
+      navigation.navigate("signup1");
+    }}>
+        <View style={[btnStyles.button, {
+        backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
+        height: props.height ? props.height : 49,
+        borderWidth: props.borderWidth ? props.borderWidth : 0,
+        borderColor: props.borderColor ? props.borderColor : "#000000"
       }]}>
-          {props.children}
-        </Text>
-      </View>
+          <Text style={[btnStyles.text, {
+          color: props.color ? props.color : "#ffffff"
+        }]}>
+            {props.children}
+          </Text>
+        </View>
+      </Pressable>
+    </TouchableHighlight>;
+};
+
+const Button1 = props => {
+  const navigation = useNavigation();
+  return <TouchableHighlight onPress={props.onPress} underlayColor="#DDDDDD">
+      <Pressable onPress={() => {
+      navigation.navigate("login2");
+    }}>
+        <View style={[btnStyles.button, {
+        backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
+        height: props.height ? props.height : 49,
+        borderWidth: props.borderWidth ? props.borderWidth : 0,
+        borderColor: props.borderColor ? props.borderColor : "#000000"
+      }]}>
+          <Text style={[btnStyles.text, {
+          color: props.color ? props.color : "#ffffff"
+        }]}>
+            {props.children}
+          </Text>
+        </View>
+      </Pressable>
     </TouchableHighlight>;
 };
 
