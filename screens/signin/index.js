@@ -78,7 +78,6 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: "white",
     display: "flex",
-    flexDirection: "column",
     justifyContent: "space-between",
     paddingVertical: 20,
     height: "100%",
@@ -86,6 +85,30 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 0,
     top: 0
+  },
+  tJqyyCLq: {
+    flex: 1
+  },
+  MXnyPRsd: {
+    flex: 1
+  },
+  SFRfkYAZ: {
+    flex: 1
+  },
+  NWKzrnbB: {
+    flex: 1
+  },
+  eqeSLPms: {
+    flex: 1
+  },
+  jYKAQvkj: {
+    flex: 1
+  },
+  BmHqsjRB: {
+    flex: 1
+  },
+  sNJXmftN: {
+    flex: 1
   }
 });
 export default SignIn;
