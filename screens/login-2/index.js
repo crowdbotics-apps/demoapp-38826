@@ -3,7 +3,13 @@ import { Pressable } from "react-native";
 import React, { useState } from "react";
 import { Text, View, TouchableOpacity, Image, TouchableHighlight, TextInput, StyleSheet } from "react-native";
 
-const Login2 = () => {
+const Login2 = ({
+  route
+}) => {
+  const {
+    product,
+    id
+  } = route.params || {};
   const navigation = useNavigation();
   const [selected, setSelected] = useState(false);
 
@@ -11,7 +17,7 @@ const Login2 = () => {
     setSelected(!selected);
   };
 
-  return <View style={styles.container}>
+  return <Pressable><View style={styles.container}>
       <View style={styles.heading}>
         <Text style={styles.headingText}>Log in</Text>
       </View>
@@ -30,8 +36,8 @@ const Login2 = () => {
           </View>
           <TouchableOpacity>
             <Pressable onPress={() => {
-            navigation.navigate("forgotPassword");
-          }}><Text>Forgot Password?</Text></Pressable>
+              navigation.navigate("forgotPassword");
+            }}><Text>Forgot Password?</Text></Pressable>
           </TouchableOpacity>
         </View>
         <View style={styles.loginContainer}>
@@ -58,11 +64,11 @@ const Login2 = () => {
         <Text style={styles.footerText}>Do not have an account?</Text>
         <TouchableOpacity>
           <Pressable onPress={() => {
-          navigation.navigate("signup1");
-        }}><Text>Sign Up</Text></Pressable>
+            navigation.navigate("signup1");
+          }}><Text>Sign Up</Text></Pressable>
         </TouchableOpacity>
       </View>
-    </View>;
+    </View></Pressable>;
 };
 
 const styles = StyleSheet.create({

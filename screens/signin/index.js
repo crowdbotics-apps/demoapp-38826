@@ -53,7 +53,10 @@ const styles = StyleSheet.create({
   welcomeText: {
     fontSize: 26,
     color: "#2F2F2F",
-    marginBottom: 16
+    marginBottom: 16,
+    position: "absolute",
+    top: -31,
+    left: 96
   },
   textBox: {
     display: "flex",
@@ -69,7 +72,8 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    opacity: 0.98
   },
   container: {
     backgroundColor: "white",
@@ -77,7 +81,11 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     justifyContent: "space-between",
     paddingVertical: 20,
-    height: "100%"
+    height: "100%",
+    borderRadius: 0,
+    position: "absolute",
+    left: 0,
+    top: NaN
   }
 });
 export default SignIn;
@@ -108,7 +116,10 @@ const Button1 = props => {
   const navigation = useNavigation();
   return <TouchableHighlight onPress={props.onPress} underlayColor="#DDDDDD">
       <Pressable onPress={() => {
-      navigation.navigate("login2");
+      navigation.navigate("login2", {
+        id: "2",
+        product: "shirt"
+      });
     }}>
         <View style={[btnStyles.button, {
         backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
