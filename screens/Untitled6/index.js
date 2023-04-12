@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0,
     textAlign: "center",
     position: "absolute",
-    top: 26,
+    top: 40,
     left: -4
   },
   sFOSiYiY: {
@@ -90,20 +90,20 @@ const styles = StyleSheet.create({
     fontSize: 14,
     borderRadius: 0,
     position: "absolute",
-    top: 60,
-    left: 16,
+    top: 70,
+    left: 17,
     fontWeight: "100",
     color: "#473a3a"
   },
   yKokNmEo: {
-    height: 36,
+    height: 34,
     width: 80,
     backgroundColor: "#fafaf2",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    top: 93,
-    left: 9
+    top: 110,
+    left: 11
   },
   QSSFYXmu: {
     height: 37,
@@ -112,8 +112,8 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    top: 93,
-    left: 101
+    top: 109,
+    left: 100
   },
   ucbnkgRt: {
     height: 35,
@@ -122,8 +122,8 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    top: 95,
-    left: 194
+    top: 109,
+    left: 187
   },
   qKDLNVsU: {
     width: 72,
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     color: "#777777",
     position: "absolute",
-    top: 148,
+    top: 160,
     left: 16
   },
   pYBJdGTl: {
@@ -179,8 +179,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     color: "#777777",
     position: "absolute",
-    top: 148,
-    left: 198
+    top: 160,
+    left: 199
   },
   MWfuaqfk: {
     height: 28,
@@ -292,7 +292,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     letterSpacing: 1,
     position: "absolute",
-    top: 336,
+    top: 347,
     left: 12,
     color: "#5b5454"
   },
@@ -303,7 +303,7 @@ const styles = StyleSheet.create({
     borderRadius: 13,
     color: "#777777",
     position: "absolute",
-    top: 365,
+    top: 377,
     left: 38
   },
   HQstRfLH: {
@@ -313,7 +313,7 @@ const styles = StyleSheet.create({
     borderRadius: 13,
     color: "#777777",
     position: "absolute",
-    top: 435,
+    top: 448,
     left: 38
   },
   RpUMXqsD: {
