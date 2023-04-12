@@ -376,9 +376,9 @@ const styles = StyleSheet.create({
   },
   AxxsVGXP: {
     width: 307,
-    height: 5,
+    height: 8,
     position: "absolute",
-    top: 105,
+    top: 102,
     left: 22
   },
   YmaXiIlD: {

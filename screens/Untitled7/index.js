@@ -10,8 +10,8 @@ const Untitled7 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.CimgzZHw}><Text style={styles.AJaBrkVd}>April, 2023</Text><View style={styles.gwiUZzhK}><Text style={styles.THYfJLcp}>+  Add Task</Text></View><View style={styles.qpkZRdZO}><Text style={styles.ZzczPrxn}>MO</Text><Text style={styles.elXJgGjf}>3</Text></View><View style={styles.UAUIfbqr}><Text style={styles.ntZvNqOd}>TU</Text><Text style={styles.IfhMpSSa}>4</Text></View><View style={styles.HiATMNLu}><Text style={styles.mUYYnKnu}>WE</Text><Text style={styles.NfGMSdHq}>5</Text></View><View style={styles.IDPGSygd}><Text style={styles.bFnpWVcw}>TH</Text><Text style={styles.WcfVgZsP}>6</Text></View><View style={styles.TREMvTIb}><Text style={styles.gZXXGphN}>FR</Text><Text style={styles.egtpOZmd}>7</Text></View><View style={styles.XXYmeqrC}><Text style={styles.YSZwOcRg}>SA</Text><Text style={styles.kJCJEuEY}>8</Text></View><View style={styles.jALlxOpn}><Text style={styles.EHneloym}>SU</Text><Text style={styles.ypFlbPkK}>9</Text></View><ImageBackground style={styles.IPagQewo} source={require("./image (18).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.xmzkLExm} source={require("./image (20).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.apVBWaah}>Tasks</Text><View style={styles.EEWoHWgT}><View style={styles.KYYeQttB}><ImageBackground style={styles.nBgPvQNI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.vlhCxXSm}>Design Changes</Text><Text style={styles.lBjoprbc}>2 Days ago</Text></View><View style={styles.ZqNXQeDZ}><View style={styles.WuwUtCDk}><ImageBackground style={styles.wuoQEGVg} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.CPPfyYFq}>Design Changes</Text><Text style={styles.noiTbeEz}>2 Days ago</Text></View><View style={styles.BBkkHzmE}><View style={styles.GLJYeHhm}><ImageBackground style={styles.WCNJJDAu} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.yvvjSoZo}>Design Changes</Text><Text style={styles.TQTQRCNC}>2 Days ago</Text></View><View style={styles.joHuDqhs}></View><View style={styles.QVDXMAjr}><ImageBackground style={styles.nXdepgtB} source={require("./image (19).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.dCxFoUeF} source={require("./image (11).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.rQCbVCqX} source={require("./image (15).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.KnmGMaXT} source={require("./image (16).png")} resizeMode="cover"></ImageBackground></View></ScrollView>
-    <View style={styles.ZkmupdFi}><View style={styles.JHDKvWSH}></View><Text style={styles.dcfEDqRM}>Design Changes</Text><Text style={styles.kjwlYIld}>2 Days ago</Text></View><View style={styles.aoRyUqlv}><View style={styles.dgRiXmhx}><ImageBackground style={styles.OZhNVToI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.JAIwlCVp}>Design Changes</Text><Text style={styles.rUDopDFz}>2 Days ago</Text></View></SafeAreaView>;
+    }}><View style={styles.CimgzZHw}><Text style={styles.AJaBrkVd}>April, 2023</Text><View style={styles.gwiUZzhK}><Text style={styles.THYfJLcp}>+  Add Task</Text></View><View style={styles.qpkZRdZO}><Text style={styles.ZzczPrxn}>MO</Text><Text style={styles.elXJgGjf}>3</Text></View><View style={styles.UAUIfbqr}><Text style={styles.ntZvNqOd}>TU</Text><Text style={styles.IfhMpSSa}>4</Text></View><View style={styles.HiATMNLu}><Text style={styles.mUYYnKnu}>WE</Text><Text style={styles.NfGMSdHq}>5</Text></View><View style={styles.IDPGSygd}><Text style={styles.bFnpWVcw}>TH</Text><Text style={styles.WcfVgZsP}>6</Text></View><View style={styles.TREMvTIb}><Text style={styles.gZXXGphN}>FR</Text><Text style={styles.egtpOZmd}>7</Text></View><View style={styles.XXYmeqrC}><Text style={styles.YSZwOcRg}>SA</Text><Text style={styles.kJCJEuEY}>8</Text></View><View style={styles.jALlxOpn}><Text style={styles.EHneloym}>SU</Text><Text style={styles.ypFlbPkK}>9</Text></View><ImageBackground style={styles.IPagQewo} source={require("./image (18).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.xmzkLExm} source={require("./image (20).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.apVBWaah}>Tasks</Text><View style={styles.EEWoHWgT}><View style={styles.KYYeQttB}><ImageBackground style={styles.nBgPvQNI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.vlhCxXSm}>Design Changes</Text><Text style={styles.lBjoprbc}>2 Days ago</Text><ImageBackground style={styles.QNAoaHoa} source={require("./image (25).png")} resizeMode="cover"></ImageBackground></View><View style={styles.ZqNXQeDZ}><View style={styles.WuwUtCDk}><ImageBackground style={styles.wuoQEGVg} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.CPPfyYFq}>Design Changes</Text><Text style={styles.noiTbeEz}>2 Days ago</Text><ImageBackground style={styles.RyJqMPaM} source={require("./image (25).png")} resizeMode="cover"></ImageBackground></View><View style={styles.BBkkHzmE}><View style={styles.GLJYeHhm}><ImageBackground style={styles.WCNJJDAu} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.yvvjSoZo}>Design Changes</Text><Text style={styles.TQTQRCNC}>2 Days ago</Text><ImageBackground style={styles.vdFLhtmn} source={require("./image (25).png")} resizeMode="cover"></ImageBackground></View><View style={styles.joHuDqhs}></View><View style={styles.QVDXMAjr}><ImageBackground style={styles.nXdepgtB} source={require("./image (19).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.dCxFoUeF} source={require("./image (11).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.rQCbVCqX} source={require("./image (15).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.KnmGMaXT} source={require("./image (16).png")} resizeMode="cover"></ImageBackground></View></ScrollView>
+    <View style={styles.ZkmupdFi}><View style={styles.JHDKvWSH}></View><Text style={styles.dcfEDqRM}>Design Changes</Text><Text style={styles.kjwlYIld}>2 Days ago</Text></View><View style={styles.aoRyUqlv}><View style={styles.dgRiXmhx}><ImageBackground style={styles.OZhNVToI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.JAIwlCVp}>Design Changes</Text><Text style={styles.rUDopDFz}>2 Days ago</Text><ImageBackground style={styles.OvezeJNw} source={require("./image (25).png")} resizeMode="cover"></ImageBackground></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   qpkZRdZO: {
     height: 63,
     width: 39,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#ffffff",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   HiATMNLu: {
     height: 63,
     width: 42,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#ffffff",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   IDPGSygd: {
     height: 63,
     width: 40,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#ffffff",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   TREMvTIb: {
     height: 62,
     width: 38,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#ffffff",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
   XXYmeqrC: {
     height: 63,
     width: 39,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#ffffff",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
   jALlxOpn: {
     height: 62,
     width: 41,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#ffffff",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     color: "#777777",
     position: "absolute",
-    top: 371,
+    top: 372,
     left: 41
   },
   joHuDqhs: {
@@ -782,7 +782,7 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    top: 509,
+    top: 519,
     left: 6
   },
   nXdepgtB: {
@@ -826,6 +826,34 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 10,
     left: 6
+  },
+  QNAoaHoa: {
+    width: 10,
+    height: 31,
+    position: "absolute",
+    top: 13,
+    left: 257
+  },
+  RyJqMPaM: {
+    width: 11,
+    height: 38,
+    position: "absolute",
+    top: 9,
+    left: 254
+  },
+  vdFLhtmn: {
+    width: 11,
+    height: 35,
+    position: "absolute",
+    top: 12,
+    left: 251
+  },
+  OvezeJNw: {
+    width: 13,
+    height: 37,
+    position: "absolute",
+    top: 11,
+    left: 250
   }
 });
 export default Untitled7;

@@ -32,7 +32,7 @@ const Untitled6 = () => {
           </View>
           <Text style={styles.ilzUzfrE}>Design Changes</Text>
           <Text style={styles.BGOLThty}>2 Days ago</Text>
-        </View>
+        <ImageBackground style={styles.vgwFOOoO} source={require("./image (25).png")} resizeMode="cover"></ImageBackground></View>
         <ImageBackground style={styles.GCQqlBHQ} source={require("./image (4).png")} resizeMode="cover"></ImageBackground>
         <ImageBackground style={styles.lZLVaXuS} source={require("./image (6).png")} resizeMode="cover"></ImageBackground>
 
@@ -47,7 +47,7 @@ const Untitled6 = () => {
         </View>
         <Text style={styles.dSevyrmK}>Design Changes</Text>
         <Text style={styles.SzxTmfec}>2 Days ago</Text>
-      </View>
+      <ImageBackground style={styles.FMSzgFAi} source={require("./image (23).png")} resizeMode="cover"></ImageBackground></View>
     <View style={styles.nLHodvSD}><ImageBackground style={styles.DHqKQOsm}></ImageBackground><ImageBackground style={styles.RAQJYelq}></ImageBackground><ImageBackground style={styles.eAQpzvZZ}></ImageBackground><ImageBackground style={styles.AFjUOwKF}></ImageBackground></View></SafeAreaView>;
 };
 
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
     color: "#777777",
     position: "absolute",
     top: 383,
-    left: 37
+    left: 36
   },
   HQstRfLH: {
     height: 60,
@@ -720,13 +720,13 @@ const styles = StyleSheet.create({
     fontWeight: "700"
   },
   ePTgMKgM: {
-    height: 51,
+    height: 48,
     width: 357,
     backgroundColor: "#edebeb",
     borderRadius: 0,
     color: "#777777",
     position: "absolute",
-    top: 515,
+    top: 522,
     left: 1
   },
   lfUsbIWc: {
@@ -929,7 +929,7 @@ const styles = StyleSheet.create({
   xNwpUSgo: {
     height: 11,
     width: 10,
-    backgroundColor: "#0a0909",
+    backgroundColor: "#b3adad",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
@@ -939,12 +939,31 @@ const styles = StyleSheet.create({
   gfTUdHGY: {
     height: 9,
     width: 10,
-    backgroundColor: "#0a0909",
+    backgroundColor: "#b3adad",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
     top: 331,
     left: 182
+  },
+  vgwFOOoO: {
+    width: 8,
+    height: 36,
+    position: "absolute",
+    top: 12,
+    left: 254
+  },
+  FMSzgFAi: {
+    width: 6,
+    height: 35,
+    position: "absolute",
+    top: 15,
+    left: 252,
+    transform: [{
+      rotate: "0deg"
+    }],
+    flexDirection: "row",
+    flex: 1
   }
 });
 export default Untitled6;
