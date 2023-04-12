@@ -825,7 +825,7 @@ const styles = StyleSheet.create({
     height: 19,
     position: "absolute",
     top: 10,
-    left: 6
+    left: 22
   },
   QNAoaHoa: {
     width: 10,
