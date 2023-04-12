@@ -1,3 +1,4 @@
+import { FlatList } from "react-native";
 import { ImageBackground } from "react-native";
 import { Text } from "react-native";
 import React from "react";
@@ -22,16 +23,32 @@ const Untitled6 = () => {
         <View style={styles.ucbnkgRt}>
           <Text style={styles.SJucnYrB}>Completed</Text>
         </View>
-        <View style={styles.kLivLWPH}>
-          <View style={styles.MWfuaqfk}></View>
-          <Text style={styles.fXTFmiqE}>Project 1</Text>
-          <Text style={styles.GygeDsOS}>Front-End Development</Text>
-          <Text style={styles.OjKVCzaX}>April 12, 2023</Text>
+        
+
+        <Text style={styles.qmGmlJxH}>Progress</Text>
+        <View style={styles.VcibujGW}>
+          <View style={styles.RpUMXqsD}>
+            <ImageBackground style={styles.iHGtuXOg} source={require("./image (5).png")} resizeMode="cover"></ImageBackground>
+          </View>
+          <Text style={styles.ilzUzfrE}>Design Changes</Text>
+          <Text style={styles.BGOLThty}>2 Days ago</Text>
         </View>
-        <View style={styles.pYBJdGTl}><View style={styles.CcvaYfiI}></View><Text style={styles.OwnbsEbC}>Project 2</Text><Text style={styles.AwQnYCtN}>Front-End
-Development</Text><Text style={styles.OSjukWhu}>April  10, 2023</Text></View>
-      <Text style={styles.qmGmlJxH}>Progress</Text><View style={styles.VcibujGW}><View style={styles.RpUMXqsD}><ImageBackground style={styles.iHGtuXOg} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.ilzUzfrE}>Design Changes</Text><Text style={styles.BGOLThty}>2 Days ago</Text></View><ImageBackground style={styles.vEPMqSeO} source={require("./image (4).png")} resizeMode="cover"></ImageBackground></ScrollView>
-    <View style={styles.uyzRADLC}><View style={styles.rEpcHCUm}><ImageBackground style={styles.jwGClMez}></ImageBackground><ImageBackground style={styles.YBhNylRC} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.dSevyrmK}>Design Changes</Text><Text style={styles.SzxTmfec}>2 Days ago</Text></View></SafeAreaView>;
+        <ImageBackground style={styles.GCQqlBHQ} source={require("./image (4).png")} resizeMode="cover"></ImageBackground>
+        <ImageBackground style={styles.lZLVaXuS} source={require("./image (6).png")} resizeMode="cover"></ImageBackground>
+
+        <FlatList style={styles.OggILIdb} renderItem={({
+        item
+      }) => <View style={styles.YGOcMDpY}><View style={styles.uObkPlbr}><ImageBackground style={styles.ZEWLztVO} source={require("./image (8).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.rROeqKTM}>Project 1</Text><Text style={styles.UOStVBjF}>Front-End Development</Text><Text style={styles.DqTsXpgN}>October 20, 2020</Text></View>} ItemSeparatorComponent={() => <View style={styles.AmeLhVPD} />} data={[1, 2]} keyExtractor={(item, index) => index} horizontal={true}></FlatList>
+      <View style={styles.ePTgMKgM}><ImageBackground style={styles.lfUsbIWc} source={require("./image (9).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.aBFEfVuQ} source={require("./image (10).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.erckjvKZ} source={require("./image (11).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.SuhWvJqt} source={require("./image (19).png")} resizeMode="cover"></ImageBackground></View></ScrollView>
+      <View style={styles.uyzRADLC}>
+        <View style={styles.rEpcHCUm}>
+          <ImageBackground style={styles.jwGClMez}></ImageBackground>
+          <ImageBackground style={styles.YBhNylRC} source={require("./image (5).png")} resizeMode="cover"></ImageBackground>
+        </View>
+        <Text style={styles.dSevyrmK}>Design Changes</Text>
+        <Text style={styles.SzxTmfec}>2 Days ago</Text>
+      </View>
+    <View style={styles.nLHodvSD}><ImageBackground style={styles.DHqKQOsm}></ImageBackground><ImageBackground style={styles.RAQJYelq}></ImageBackground><ImageBackground style={styles.eAQpzvZZ}></ImageBackground><ImageBackground style={styles.AFjUOwKF}></ImageBackground></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -81,7 +98,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0,
     textAlign: "center",
     position: "absolute",
-    top: 51,
+    top: 58,
     left: -5
   },
   sFOSiYiY: {
@@ -91,8 +108,8 @@ const styles = StyleSheet.create({
     fontSize: 14,
     borderRadius: 0,
     position: "absolute",
-    top: 78,
-    left: 15,
+    top: 88,
+    left: 16,
     fontWeight: "100",
     color: "#473a3a"
   },
@@ -103,8 +120,8 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    top: 110,
-    left: 11
+    top: 124,
+    left: 10
   },
   QSSFYXmu: {
     height: 37,
@@ -113,7 +130,7 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    top: 109,
+    top: 120,
     left: 100
   },
   ucbnkgRt: {
@@ -123,8 +140,8 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    top: 109,
-    left: 187
+    top: 118,
+    left: 190
   },
   qKDLNVsU: {
     width: 72,
@@ -164,24 +181,24 @@ const styles = StyleSheet.create({
     left: 15
   },
   kLivLWPH: {
-    height: 163,
-    width: 174,
+    height: 159,
+    width: 183,
     backgroundColor: "#585757",
     borderRadius: 10,
     color: "#777777",
     position: "absolute",
-    top: 160,
-    left: 16
+    top: 476,
+    left: 15
   },
   pYBJdGTl: {
-    height: 161,
-    width: 171,
+    height: 139,
+    width: 152,
     backgroundColor: "#747272",
     borderRadius: 10,
     color: "#777777",
     position: "absolute",
-    top: 160,
-    left: 199
+    top: 179,
+    left: 187
   },
   MWfuaqfk: {
     height: 28,
@@ -532,6 +549,365 @@ const styles = StyleSheet.create({
   ovMWnrMA: {
     backgroundColor: "#000000",
     height: 1
+  },
+  jTGesjiV: {
+    position: "absolute",
+    width: 398,
+    height: 172,
+    left: 16,
+    top: 156
+  },
+  OPpZPMME: {
+    width: 290,
+    height: 167,
+    backgroundColor: "#FFFFFF",
+    position: "absolute",
+    top: 2,
+    left: -105
+  },
+  IIkdbGSS: {
+    backgroundColor: "#000000",
+    height: 1
+  },
+  DNWhwiqi: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
+  },
+  jMctlAdk: {
+    height: 47,
+    width: 59,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 2,
+    left: 293
+  },
+  dqGYQVQd: {
+    width: 46,
+    height: 44,
+    position: "absolute",
+    top: 75,
+    left: -10
+  },
+  ygvnklel: {
+    height: 46,
+    width: 53,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 2,
+    left: 2
+  },
+  JlnDqgLY: {
+    width: 38,
+    height: 39
+  },
+  GCQqlBHQ: {
+    width: 35,
+    height: 36,
+    position: "absolute",
+    top: 7,
+    left: 309
+  },
+  lZLVaXuS: {
+    width: 26,
+    height: 29,
+    position: "absolute",
+    top: 10,
+    left: 13
+  },
+  OoMWeMba: {
+    position: "absolute",
+    width: 342,
+    height: 150,
+    left: 2,
+    top: 0
+  },
+  gnDofphY: {
+    width: 153,
+    height: 143,
+    backgroundColor: "#FFFFFF",
+    borderRadius: 20,
+    position: "absolute",
+    top: 3,
+    left: -2
+  },
+  NRESckvH: {
+    backgroundColor: "#000000",
+    height: 1
+  },
+  Ztpgpljh: {
+    width: 20,
+    height: 1
+  },
+  OggILIdb: {
+    position: "absolute",
+    width: 346,
+    height: 154,
+    left: 9,
+    top: 170
+  },
+  YGOcMDpY: {
+    width: 161,
+    height: 152,
+    backgroundColor: "#383333",
+    borderRadius: 12
+  },
+  AmeLhVPD: {
+    width: 12,
+    height: 1
+  },
+  EBAbNqoB: {
+    width: 152,
+    height: 132
+  },
+  uObkPlbr: {
+    height: 36,
+    width: 41,
+    backgroundColor: "#7a7474",
+    borderRadius: 8,
+    color: "#777777",
+    position: "absolute",
+    top: 15,
+    left: 17
+  },
+  rROeqKTM: {
+    width: 62,
+    height: 15,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0,
+    position: "absolute",
+    top: 24,
+    left: 67,
+    color: "#fefefe",
+    fontWeight: "700"
+  },
+  ZEWLztVO: {
+    width: 33,
+    height: 31,
+    position: "absolute",
+    top: 2,
+    left: 4
+  },
+  UOStVBjF: {
+    width: 100,
+    height: 35,
+    lineHeight: 19,
+    fontSize: 14,
+    borderRadius: 0,
+    color: "#fafafa",
+    fontWeight: "700",
+    position: "absolute",
+    top: 64,
+    left: 17
+  },
+  DqTsXpgN: {
+    width: 123,
+    height: 19,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0,
+    position: "absolute",
+    top: 127,
+    left: 10,
+    color: "#ffffff",
+    fontWeight: "700"
+  },
+  ePTgMKgM: {
+    height: 51,
+    width: 357,
+    backgroundColor: "#edebeb",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 515,
+    left: 1
+  },
+  lfUsbIWc: {
+    width: 33,
+    height: 30,
+    position: "absolute",
+    top: 14,
+    left: 46
+  },
+  aBFEfVuQ: {
+    width: 33,
+    height: 32,
+    position: "absolute",
+    top: 13,
+    left: 118
+  },
+  erckjvKZ: {
+    width: 35,
+    height: 31,
+    position: "absolute",
+    top: 14,
+    left: 190
+  },
+  SuhWvJqt: {
+    width: 35,
+    height: 32,
+    position: "absolute",
+    top: 14,
+    left: 257
+  },
+  tltIqlFn: {
+    height: 51,
+    width: 357,
+    backgroundColor: "#edebeb",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 28.25445556640625,
+    left: 1
+  },
+  HDwyjJGQ: {
+    width: 33,
+    height: 30,
+    position: "absolute",
+    top: 14,
+    left: 46
+  },
+  NtsAkGia: {
+    width: 33,
+    height: 32,
+    position: "absolute",
+    top: 13,
+    left: 118
+  },
+  afbNFsva: {
+    width: 35,
+    height: 31,
+    position: "absolute",
+    top: 14,
+    left: 190
+  },
+  VKVKicEa: {
+    width: 35,
+    height: 32,
+    position: "absolute",
+    top: 14,
+    left: 257
+  },
+  mSAIfVVr: {
+    height: 51,
+    width: 357,
+    backgroundColor: "#edebeb",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 28.25445556640625,
+    left: 1
+  },
+  RqiPMDLs: {
+    width: 33,
+    height: 30,
+    position: "absolute",
+    top: 14,
+    left: 46
+  },
+  IkDtYPeM: {
+    width: 33,
+    height: 32,
+    position: "absolute",
+    top: 13,
+    left: 118
+  },
+  gXIizrzU: {
+    width: 35,
+    height: 31,
+    position: "absolute",
+    top: 14,
+    left: 190
+  },
+  crCbLmvL: {
+    width: 35,
+    height: 32,
+    position: "absolute",
+    top: 14,
+    left: 257
+  },
+  CQKuniDf: {
+    height: 51,
+    width: 357,
+    backgroundColor: "#edebeb",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 28.25445556640625,
+    left: 1
+  },
+  LMarzgmG: {
+    width: 33,
+    height: 30,
+    position: "absolute",
+    top: 14,
+    left: 46
+  },
+  qbBdrnft: {
+    width: 33,
+    height: 32,
+    position: "absolute",
+    top: 13,
+    left: 118
+  },
+  TDwnDKMp: {
+    width: 35,
+    height: 31,
+    position: "absolute",
+    top: 14,
+    left: 190
+  },
+  hVXjdbBc: {
+    width: 35,
+    height: 32,
+    position: "absolute",
+    top: 14,
+    left: 257
+  },
+  nLHodvSD: {
+    height: 51,
+    width: 357,
+    backgroundColor: "#edebeb",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 576,
+    left: 1
+  },
+  DHqKQOsm: {
+    width: 33,
+    height: 30,
+    position: "absolute",
+    top: 14,
+    left: 46
+  },
+  RAQJYelq: {
+    width: 33,
+    height: 32,
+    position: "absolute",
+    top: 13,
+    left: 118
+  },
+  eAQpzvZZ: {
+    width: 35,
+    height: 31,
+    position: "absolute",
+    top: 14,
+    left: 190
+  },
+  AFjUOwKF: {
+    width: 35,
+    height: 32,
+    position: "absolute",
+    top: 14,
+    left: 257
   }
 });
 export default Untitled6;

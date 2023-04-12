@@ -10,7 +10,7 @@ const Untitled7 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.CimgzZHw}><Text style={styles.AJaBrkVd}>April, 2023</Text><View style={styles.gwiUZzhK}><Text style={styles.THYfJLcp}>+  Add Task</Text></View><View style={styles.qpkZRdZO}><Text style={styles.ZzczPrxn}>MO</Text><Text style={styles.elXJgGjf}>3</Text></View><View style={styles.UAUIfbqr}><Text style={styles.ntZvNqOd}>TU</Text><Text style={styles.IfhMpSSa}>4</Text></View><View style={styles.HiATMNLu}><Text style={styles.mUYYnKnu}>WE</Text><Text style={styles.NfGMSdHq}>5</Text></View><View style={styles.IDPGSygd}><Text style={styles.bFnpWVcw}>TH</Text><Text style={styles.WcfVgZsP}>6</Text></View><View style={styles.TREMvTIb}><Text style={styles.gZXXGphN}>FR</Text><Text style={styles.egtpOZmd}>7</Text></View><View style={styles.XXYmeqrC}><Text style={styles.YSZwOcRg}>SA</Text><Text style={styles.kJCJEuEY}>8</Text></View><View style={styles.jALlxOpn}><Text style={styles.EHneloym}>SU</Text><Text style={styles.ypFlbPkK}>9</Text></View></View><Text style={styles.apVBWaah}>Tasks</Text><View style={styles.EEWoHWgT}><View style={styles.KYYeQttB}><ImageBackground style={styles.nBgPvQNI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.vlhCxXSm}>Design Changes</Text><Text style={styles.lBjoprbc}>2 Days ago</Text></View><View style={styles.ZqNXQeDZ}><View style={styles.WuwUtCDk}><ImageBackground style={styles.wuoQEGVg} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.CPPfyYFq}>Design Changes</Text><Text style={styles.noiTbeEz}>2 Days ago</Text></View><View style={styles.BBkkHzmE}><View style={styles.GLJYeHhm}><ImageBackground style={styles.WCNJJDAu} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.yvvjSoZo}>Design Changes</Text><Text style={styles.TQTQRCNC}>2 Days ago</Text></View><View style={styles.joHuDqhs}></View></ScrollView>
+    }}><View style={styles.CimgzZHw}><Text style={styles.AJaBrkVd}>April, 2023</Text><View style={styles.gwiUZzhK}><Text style={styles.THYfJLcp}>+  Add Task</Text></View><View style={styles.qpkZRdZO}><Text style={styles.ZzczPrxn}>MO</Text><Text style={styles.elXJgGjf}>3</Text></View><View style={styles.UAUIfbqr}><Text style={styles.ntZvNqOd}>TU</Text><Text style={styles.IfhMpSSa}>4</Text></View><View style={styles.HiATMNLu}><Text style={styles.mUYYnKnu}>WE</Text><Text style={styles.NfGMSdHq}>5</Text></View><View style={styles.IDPGSygd}><Text style={styles.bFnpWVcw}>TH</Text><Text style={styles.WcfVgZsP}>6</Text></View><View style={styles.TREMvTIb}><Text style={styles.gZXXGphN}>FR</Text><Text style={styles.egtpOZmd}>7</Text></View><View style={styles.XXYmeqrC}><Text style={styles.YSZwOcRg}>SA</Text><Text style={styles.kJCJEuEY}>8</Text></View><View style={styles.jALlxOpn}><Text style={styles.EHneloym}>SU</Text><Text style={styles.ypFlbPkK}>9</Text></View><ImageBackground style={styles.IPagQewo} source={require("./image (18).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.xmzkLExm} source={require("./image (20).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.apVBWaah}>Tasks</Text><View style={styles.EEWoHWgT}><View style={styles.KYYeQttB}><ImageBackground style={styles.nBgPvQNI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.vlhCxXSm}>Design Changes</Text><Text style={styles.lBjoprbc}>2 Days ago</Text></View><View style={styles.ZqNXQeDZ}><View style={styles.WuwUtCDk}><ImageBackground style={styles.wuoQEGVg} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.CPPfyYFq}>Design Changes</Text><Text style={styles.noiTbeEz}>2 Days ago</Text></View><View style={styles.BBkkHzmE}><View style={styles.GLJYeHhm}><ImageBackground style={styles.WCNJJDAu} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.yvvjSoZo}>Design Changes</Text><Text style={styles.TQTQRCNC}>2 Days ago</Text></View><View style={styles.joHuDqhs}></View><View style={styles.QVDXMAjr}><ImageBackground style={styles.nXdepgtB} source={require("./image (19).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.dCxFoUeF} source={require("./image (11).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.rQCbVCqX} source={require("./image (15).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.KnmGMaXT} source={require("./image (16).png")} resizeMode="cover"></ImageBackground></View></ScrollView>
     <View style={styles.ZkmupdFi}><View style={styles.JHDKvWSH}></View><Text style={styles.dcfEDqRM}>Design Changes</Text><Text style={styles.kjwlYIld}>2 Days ago</Text></View><View style={styles.aoRyUqlv}><View style={styles.dgRiXmhx}><ImageBackground style={styles.OZhNVToI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.JAIwlCVp}>Design Changes</Text><Text style={styles.rUDopDFz}>2 Days ago</Text></View></SafeAreaView>;
 };
 
@@ -26,10 +26,10 @@ const styles = StyleSheet.create({
     color: "#777777",
     position: "absolute",
     top: -3,
-    left: -2
+    left: -1
   },
   AJaBrkVd: {
-    width: 144,
+    width: 137,
     height: 22,
     lineHeight: 16,
     fontSize: 29,
@@ -39,13 +39,13 @@ const styles = StyleSheet.create({
     left: 17
   },
   gwiUZzhK: {
-    height: 37,
-    width: 107,
+    height: 33,
+    width: 87,
     backgroundColor: "#6c6767",
     borderRadius: 40,
     color: "#777777",
     position: "absolute",
-    top: 45,
+    top: 49,
     left: 219
   },
   THYfJLcp: {
@@ -57,8 +57,8 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     color: "#fffffa",
     position: "absolute",
-    top: 12,
-    left: 20
+    top: 10,
+    left: 7
   },
   qpkZRdZO: {
     height: 63,
@@ -774,6 +774,58 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 2,
     left: 3
+  },
+  QVDXMAjr: {
+    height: 49,
+    width: 351,
+    backgroundColor: "#efecec",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    top: 509,
+    left: 6
+  },
+  nXdepgtB: {
+    width: 35,
+    height: 31,
+    position: "absolute",
+    top: 9,
+    left: 261
+  },
+  dCxFoUeF: {
+    width: 36,
+    height: 32,
+    position: "absolute",
+    top: 9,
+    left: 199
+  },
+  rQCbVCqX: {
+    width: 37,
+    height: 33,
+    position: "absolute",
+    top: 9,
+    left: 125
+  },
+  KnmGMaXT: {
+    width: 43,
+    height: 36,
+    position: "absolute",
+    top: 4,
+    left: 45
+  },
+  IPagQewo: {
+    width: 32,
+    height: 34,
+    position: "absolute",
+    top: 4,
+    left: 294
+  },
+  xmzkLExm: {
+    width: 29,
+    height: 19,
+    position: "absolute",
+    top: 10,
+    left: 6
   }
 });
 export default Untitled7;
