@@ -39,7 +39,7 @@ const Untitled6 = () => {
         <FlatList style={styles.OggILIdb} renderItem={({
         item
       }) => <View style={styles.YGOcMDpY}><View style={styles.uObkPlbr}><ImageBackground style={styles.ZEWLztVO} source={require("./image (8).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.rROeqKTM}>Project 1</Text><Text style={styles.UOStVBjF}>Front-End Development</Text><Text style={styles.DqTsXpgN}>October 20, 2020</Text></View>} ItemSeparatorComponent={() => <View style={styles.AmeLhVPD} />} data={[1, 2]} keyExtractor={(item, index) => index} horizontal={true}></FlatList>
-      <View style={styles.ePTgMKgM}><ImageBackground style={styles.lfUsbIWc} source={require("./image (9).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.aBFEfVuQ} source={require("./image (10).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.erckjvKZ} source={require("./image (11).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.SuhWvJqt} source={require("./image (19).png")} resizeMode="cover"></ImageBackground></View></ScrollView>
+      <View style={styles.ePTgMKgM}><ImageBackground style={styles.lfUsbIWc} source={require("./image (9).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.aBFEfVuQ} source={require("./image (10).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.erckjvKZ} source={require("./image (11).png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.SuhWvJqt} source={require("./image (19).png")} resizeMode="cover"></ImageBackground></View><View style={styles.GlgkOrRv}></View><View style={styles.xNwpUSgo}></View><View style={styles.gfTUdHGY}></View></ScrollView>
       <View style={styles.uyzRADLC}>
         <View style={styles.rEpcHCUm}>
           <ImageBackground style={styles.jwGClMez}></ImageBackground>
@@ -310,8 +310,8 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     letterSpacing: 1,
     position: "absolute",
-    top: 347,
-    left: 12,
+    top: 352,
+    left: 10,
     color: "#5b5454"
   },
   VcibujGW: {
@@ -321,8 +321,8 @@ const styles = StyleSheet.create({
     borderRadius: 13,
     color: "#777777",
     position: "absolute",
-    top: 378,
-    left: 40
+    top: 383,
+    left: 37
   },
   HQstRfLH: {
     height: 60,
@@ -423,8 +423,8 @@ const styles = StyleSheet.create({
     borderRadius: 13,
     color: "#777777",
     position: "absolute",
-    top: 443,
-    left: 41
+    top: 449,
+    left: 39
   },
   rEpcHCUm: {
     height: 33,
@@ -908,6 +908,43 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 14,
     left: 257
+  },
+  HtUYOjsd: {
+    width: 40,
+    height: 10,
+    position: "absolute",
+    top: 333,
+    left: 123
+  },
+  GlgkOrRv: {
+    height: 8,
+    width: 27,
+    backgroundColor: "#2a2828",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    top: 331,
+    left: 152
+  },
+  xNwpUSgo: {
+    height: 11,
+    width: 10,
+    backgroundColor: "#0a0909",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    top: 330,
+    left: 196
+  },
+  gfTUdHGY: {
+    height: 9,
+    width: 10,
+    backgroundColor: "#0a0909",
+    borderRadius: 40,
+    color: "#777777",
+    position: "absolute",
+    top: 331,
+    left: 182
   }
 });
 export default Untitled6;
