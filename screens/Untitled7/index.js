@@ -1,3 +1,4 @@
+import { ImageBackground } from "react-native";
 import { Text } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
@@ -9,8 +10,8 @@ const Untitled7 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.CimgzZHw}><Text style={styles.AJaBrkVd}>April, 2023</Text><View style={styles.gwiUZzhK}><Text style={styles.THYfJLcp}>+  Add Task</Text></View><View style={styles.qpkZRdZO}><Text style={styles.ZzczPrxn}>MO</Text><Text style={styles.elXJgGjf}>3</Text></View><View style={styles.UAUIfbqr}><Text style={styles.ntZvNqOd}>TU</Text><Text style={styles.IfhMpSSa}>4</Text></View><View style={styles.HiATMNLu}><Text style={styles.mUYYnKnu}>WE</Text><Text style={styles.NfGMSdHq}>5</Text></View><View style={styles.IDPGSygd}><Text style={styles.bFnpWVcw}>TH</Text><Text style={styles.WcfVgZsP}>6</Text></View><View style={styles.TREMvTIb}><Text style={styles.gZXXGphN}>FR</Text><Text style={styles.egtpOZmd}>7</Text></View><View style={styles.XXYmeqrC}><Text style={styles.YSZwOcRg}>SA</Text><Text style={styles.kJCJEuEY}>8</Text></View><View style={styles.jALlxOpn}><Text style={styles.EHneloym}>SU</Text><Text style={styles.ypFlbPkK}>9</Text></View></View><Text style={styles.apVBWaah}>Tasks</Text><View style={styles.EEWoHWgT}><View style={styles.KYYeQttB}></View><Text style={styles.vlhCxXSm}>Design Changes</Text><Text style={styles.lBjoprbc}>2 Days ago</Text></View><View style={styles.ZqNXQeDZ}><View style={styles.WuwUtCDk}></View><Text style={styles.CPPfyYFq}>Design Changes</Text><Text style={styles.noiTbeEz}>2 Days ago</Text></View><View style={styles.BBkkHzmE}><View style={styles.GLJYeHhm}></View><Text style={styles.yvvjSoZo}>Design Changes</Text><Text style={styles.TQTQRCNC}>2 Days ago</Text></View><View style={styles.joHuDqhs}></View></ScrollView>
-    <View style={styles.ZkmupdFi}><View style={styles.JHDKvWSH}></View><Text style={styles.dcfEDqRM}>Design Changes</Text><Text style={styles.kjwlYIld}>2 Days ago</Text></View><View style={styles.aoRyUqlv}><View style={styles.dgRiXmhx}></View><Text style={styles.JAIwlCVp}>Design Changes</Text><Text style={styles.rUDopDFz}>2 Days ago</Text></View></SafeAreaView>;
+    }}><View style={styles.CimgzZHw}><Text style={styles.AJaBrkVd}>April, 2023</Text><View style={styles.gwiUZzhK}><Text style={styles.THYfJLcp}>+  Add Task</Text></View><View style={styles.qpkZRdZO}><Text style={styles.ZzczPrxn}>MO</Text><Text style={styles.elXJgGjf}>3</Text></View><View style={styles.UAUIfbqr}><Text style={styles.ntZvNqOd}>TU</Text><Text style={styles.IfhMpSSa}>4</Text></View><View style={styles.HiATMNLu}><Text style={styles.mUYYnKnu}>WE</Text><Text style={styles.NfGMSdHq}>5</Text></View><View style={styles.IDPGSygd}><Text style={styles.bFnpWVcw}>TH</Text><Text style={styles.WcfVgZsP}>6</Text></View><View style={styles.TREMvTIb}><Text style={styles.gZXXGphN}>FR</Text><Text style={styles.egtpOZmd}>7</Text></View><View style={styles.XXYmeqrC}><Text style={styles.YSZwOcRg}>SA</Text><Text style={styles.kJCJEuEY}>8</Text></View><View style={styles.jALlxOpn}><Text style={styles.EHneloym}>SU</Text><Text style={styles.ypFlbPkK}>9</Text></View></View><Text style={styles.apVBWaah}>Tasks</Text><View style={styles.EEWoHWgT}><View style={styles.KYYeQttB}><ImageBackground style={styles.nBgPvQNI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.vlhCxXSm}>Design Changes</Text><Text style={styles.lBjoprbc}>2 Days ago</Text></View><View style={styles.ZqNXQeDZ}><View style={styles.WuwUtCDk}><ImageBackground style={styles.wuoQEGVg} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.CPPfyYFq}>Design Changes</Text><Text style={styles.noiTbeEz}>2 Days ago</Text></View><View style={styles.BBkkHzmE}><View style={styles.GLJYeHhm}><ImageBackground style={styles.WCNJJDAu} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.yvvjSoZo}>Design Changes</Text><Text style={styles.TQTQRCNC}>2 Days ago</Text></View><View style={styles.joHuDqhs}></View></ScrollView>
+    <View style={styles.ZkmupdFi}><View style={styles.JHDKvWSH}></View><Text style={styles.dcfEDqRM}>Design Changes</Text><Text style={styles.kjwlYIld}>2 Days ago</Text></View><View style={styles.aoRyUqlv}><View style={styles.dgRiXmhx}><ImageBackground style={styles.OZhNVToI} source={require("./image (5).png")} resizeMode="cover"></ImageBackground></View><Text style={styles.JAIwlCVp}>Design Changes</Text><Text style={styles.rUDopDFz}>2 Days ago</Text></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -344,13 +345,13 @@ const styles = StyleSheet.create({
     left: 41
   },
   KYYeQttB: {
-    height: 32,
-    width: 34,
-    backgroundColor: "#E4E4E4",
+    height: 31,
+    width: 30,
+    backgroundColor: "#201f1f",
     borderRadius: 4,
     color: "#777777",
     position: "absolute",
-    top: 11,
+    top: 12,
     left: 13
   },
   vlhCxXSm: {
@@ -378,7 +379,7 @@ const styles = StyleSheet.create({
   WuwUtCDk: {
     height: 32,
     width: 33,
-    backgroundColor: "#E4E4E4",
+    backgroundColor: "#0a0909",
     borderRadius: 4,
     color: "#777777",
     position: "absolute",
@@ -414,14 +415,14 @@ const styles = StyleSheet.create({
     left: 55
   },
   GLJYeHhm: {
-    height: 31,
-    width: 36,
-    backgroundColor: "#E4E4E4",
+    height: 29,
+    width: 30,
+    backgroundColor: "#282626",
     borderRadius: 4,
     color: "#777777",
     position: "absolute",
-    top: 10,
-    left: 12
+    top: 12,
+    left: 14
   },
   yvvjSoZo: {
     width: 104,
@@ -441,7 +442,7 @@ const styles = StyleSheet.create({
     borderRadius: 0,
     position: "absolute",
     top: 25,
-    left: 50,
+    left: 54,
     color: "#6d6767"
   },
   ZkmupdFi: {
@@ -497,8 +498,8 @@ const styles = StyleSheet.create({
   },
   dgRiXmhx: {
     height: 31,
-    width: 36,
-    backgroundColor: "#E4E4E4",
+    width: 32,
+    backgroundColor: "#201e1e",
     borderRadius: 4,
     color: "#777777",
     position: "absolute",
@@ -689,6 +690,90 @@ const styles = StyleSheet.create({
     top: 25,
     left: 50,
     color: "#6d6767"
+  },
+  KvRBIrBK: {
+    height: 60,
+    width: 287,
+    backgroundColor: "#fffffa",
+    borderRadius: 13,
+    color: "#777777",
+    position: "absolute",
+    top: 13.8485107421875,
+    left: 34
+  },
+  EWUcTXSI: {
+    height: 33,
+    width: 34,
+    backgroundColor: "#141313",
+    borderRadius: 5,
+    color: "#777777",
+    position: "absolute",
+    top: 13,
+    left: 12
+  },
+  bVAKrPEu: {
+    width: 32,
+    height: 27,
+    position: "absolute",
+    top: 3,
+    left: 1
+  },
+  BcBuCQhh: {
+    width: 28,
+    height: 22,
+    position: "absolute",
+    top: 6,
+    left: 3
+  },
+  ISwquQbY: {
+    width: 107,
+    height: 16,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0,
+    position: "absolute",
+    top: 16,
+    left: 55
+  },
+  rICksigA: {
+    width: 65,
+    height: 10,
+    lineHeight: 12,
+    fontSize: 12,
+    borderRadius: 0,
+    fontWeight: "200",
+    position: "absolute",
+    top: 32,
+    left: 55,
+    color: "#696464"
+  },
+  nBgPvQNI: {
+    width: 22,
+    height: 24,
+    position: "absolute",
+    top: 4,
+    left: 5
+  },
+  wuoQEGVg: {
+    width: 24,
+    height: 29,
+    position: "absolute",
+    top: 3,
+    left: 4
+  },
+  WCNJJDAu: {
+    width: 24,
+    height: 23,
+    position: "absolute",
+    top: 2,
+    left: 3
+  },
+  OZhNVToI: {
+    width: 24,
+    height: 25,
+    position: "absolute",
+    top: 2,
+    left: 3
   }
 });
 export default Untitled7;
